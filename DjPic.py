@@ -10,7 +10,7 @@ from myDb import Db
 
 database = Db("C:/temp/test.db")
 
-print (sys.version)
+#print (sys.version)
 
 def get_selected_row(event):
     global selected_tuple
